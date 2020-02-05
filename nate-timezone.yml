@@ -16,4 +16,5 @@
      shell: date +%Z
      
    - name: Set hostname
-     hostname: "{{ hostname }}"
+     hostname: 
+      name: "{{ hostname }}"
