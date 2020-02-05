@@ -15,5 +15,5 @@
    - name: Display new timezone
      shell: date +%Z
      
-   - name Set hostname
+   - name: Set hostname
      hostname: "{{ hostname }}"
